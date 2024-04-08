@@ -1,0 +1,43 @@
+img{
+    margin: 10px;
+
+}
+input{
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* .col{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
+} */
+  
+
+body{
+    background: #5C8374;
+}
+input[type="text"]{
+    padding: 10px;
+    size:20%;
+}
+input[type="submit"]{   
+    padding: 10px;
+    size:25px;
+    background-color: #EE99C2; 
+    font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+    font-weight: 500px;
+
+&:hover {
+    
+    background-color: #EED3D9;
+  }
+  &:active { 
+    transform: translateY(2px); 
+  }
+  div {
+    display: flex;
+    justify-content: center;
+  }
+}
